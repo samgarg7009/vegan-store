@@ -154,6 +154,11 @@ nav>img {
     padding: 112px 48px;
 }
 
+.steps-box:hover .step-icon {
+    transform: scale(1.1, 1.1);
+    transition: all 0.3s;
+}
+
 .step-1 {
     background-color: #5acda6;
 }
@@ -218,6 +223,11 @@ nav>img {
     display: inline-block;
 }
 
+.store-item:hover .icon {
+    transform: scale(1.1, 1.1);
+    transition: all 0.3s;
+}
+
 .vegan-store-wrapper {
     width: 100%;
     max-width: 1140px;
@@ -272,6 +282,10 @@ nav>img {
     border-bottom-right-radius: 45px;
 }
 
+.test-card:hover {
+    transform: box-shadow 0.3s;
+}
+
 .test-card img {
     width: 80px;
     border-radius: 50%;
@@ -283,6 +297,7 @@ nav>img {
     letter-spacing: 0.5px;
     font-family: 'Poppins', sans-serif;
     font-style: italic;
+    margin: 0;
 }
 
 .test-name {
@@ -300,4 +315,116 @@ nav>img {
     font-family: 'Poppins', sans-serif;
     font-style: italic;
     letter-spacing: 0.5px;
+}
+
+.subscribe-section {
+    display: flex;
+}
+
+.image {
+    width: 67%;
+}
+
+.image img {
+    width: 100%;
+}
+
+.follow-us {
+    width: 33.33%;
+    text-align: center;
+    background-image: url(https://edyoda.s3.ap-south-1.amazonaws.com/public/strawberry-white.png);
+    background-size: cover;
+}
+
+.follow-us-wrapper {
+    margin: 115px;
+}
+
+.follow-us-wrapper h3 {
+    font-size: 44px;
+    font-weight: var(--font-weight-bold);
+    font-family: 'Poppins', sans-serif;
+    margin: 0 0 8px;
+}
+
+.follow-us-wrapper p {
+    color: #8b8b99;
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    line-height: 1.6;
+}
+
+#email {
+    width: 100%;
+    border-radius: 4px;
+    margin-top: 60px;
+    border: 0;
+    font-size: var(--font-size-large);
+    background-color: white;
+    color: #8b8b99;
+    padding: 12px;
+    font-weight: 500;
+}
+
+#email:focus {
+    border: 1px solid white;
+}
+
+#sub-button {
+    padding: 16px 42px;
+    color: white;
+    background-color: #f69dad;
+    border-radius: 4px;
+    margin-top: 16px;
+    border: 1px solid #f69dad;
+    font-size: var(--font-size-medium);
+    font-weight: var(--font-weight-bold);
+    cursor: pointer;
+}
+
+#sub-button:hover {
+    background-color: transparent;
+    color: #f69dad;
+}
+
+.stats-section {
+    background-color: #f6fcfa;
+}
+
+.stats-wrapper {
+    width: 100%;
+    max-width: 1140px;
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    padding: 100px 0;
+}
+
+.stats-item {
+    width: 25%;
+}
+
+.stats-item h3 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 44px;
+    margin: 0;
+    font-weight: 600;
+}
+
+.stats-item p {
+    color: #57e3b5;
+    font-family: 'Poppins', sans-serif;
+    font-size: var(--font-size-medium);
+    font-style: italic;
+    letter-spacing: 0.5px;
+    margin: 0;
+}
+
+.video-section h3 {
+    font-family: 'Poppins', sans-serif;
+    color: #8b8b99;
+    font-size: 44px;
+    font-weight: var(--font-weight-light);
 }
