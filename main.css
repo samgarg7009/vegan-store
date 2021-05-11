@@ -1,0 +1,250 @@
+:root {
+    --font-size-large: 16px;
+    --font-size-medium: 14px;
+    --font-size-small: 12px;
+    --font-weight-bold: 600;
+    --font-weight-light: 400;
+}
+
+body {
+    margin: 0;
+}
+
+header {
+    background-image: url(https://edyoda.s3.ap-south-1.amazonaws.com/public/landing-background.png);
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    background: white;
+    width: 100%;
+    padding: 14px 28px;
+    box-sizing: border-box;
+}
+
+nav>img {
+    width: 40px;
+}
+
+.menu-item {
+    font-size: var(--font-size-medium);
+    font-weight: var(--font-weight-bold);
+    Font-Family: 'Poppins', sans-serif;
+    Color: black;
+    cursor: pointer;
+    margin-right: 24px;
+    padding: 8px 0;
+}
+
+.dropdown-wrapper {
+    display: inline-block;
+    position: relative;
+}
+
+.dropdown {
+    width: 150px;
+    right: 24px;
+    display: none;
+    position: absolute;
+    padding: 20px;
+    font-family: 'Poppins', sans-serif;
+    border-top: 2px solid rgb(170, 210, 54);
+    background-color: white;
+    box-shadow: 0 2px 5px #ccc;
+}
+
+.dropdown-wrapper:hover .dropdown {
+    display: block;
+}
+
+.dropdown a {
+    display: block;
+    border-bottom: 1px solid #ccc;
+    padding: 4px;
+    cursor: pointer;
+}
+
+.dropdown a:last-child {
+    border: none;
+}
+
+.dropdown a:hover {
+    background-color: bisque;
+}
+
+.Buy-Now-Button {
+    font-family: 'Poppins', sans-serif;
+    font-size: var(--font-size-small);
+    font-weight: var(--font-weight-bold);
+    color: white;
+    background-color: rgb(170, 210, 54);
+    text-transform: uppercase;
+    Padding: 9px 34px;
+    border: none;
+    border-radius: 4px;
+    margin-right: 14px;
+    cursor: pointer;
+}
+
+.main-heading {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-heading h1 {
+    max-width: 1100px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 44px;
+    font-weight: var(--font-weight-bold);
+    letter-spacing: 8.8px;
+    line-height: 1.2;
+    text-align: center;
+}
+
+.main-heading p {
+    max-width: 1100px;
+    font-family: 'Poppins', sans-serif;
+    font-size: var(--font-size-medium);
+    letter-spacing: 0.5px;
+    font-weight: var(--font-weight-light);
+    Color: #8b8b99;
+    text-align: center;
+}
+
+.steps-section {
+    width: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+}
+
+.steps-section h3 {
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-weight: var(--font-weight-bold);
+    font-size: 24px;
+}
+
+.steps-section p {
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: var( --font-size-medium);
+    letter-spacing: 0.5px;
+    line-height: 1.6;
+}
+
+.steps-section i {
+    font-size: 96px;
+    color: white;
+}
+
+.steps-box {
+    width: 25%;
+    text-align: center;
+    padding: 112px 48px;
+}
+
+.step-1 {
+    background-color: #5acda6;
+}
+
+.step-2 {
+    background-color: #91ac41;
+}
+
+.step-3 {
+    background-color: #e4b476;
+}
+
+.step-4 {
+    background-color: #f69dad;
+}
+
+.store-section {
+    padding-top: 75px;
+    padding-bottom: 75px;
+    background-color: #f7eee2;
+}
+
+.fresh-food {
+    color: #91ac41;
+    font-size: 24px;
+    text-align: center;
+    font-family: 'Caveat', cursive;
+    margin: 0;
+    margin-top: 35px;
+}
+
+.vegan-head {
+    font-family: 'Poppins', sans-serif;
+    font-size: 44px;
+    text-align: center;
+    font-weight: var(--font-weight-bold);
+    margin: 0;
+    padding-bottom: 8px;
+}
+
+.vegan-desc {
+    font-family: 'Poppins', sans-serif;
+    font-size: var(--font-size-large);
+    font-weight: 500;
+    text-align: center;
+    color: #8b8b99;
+    letter-spacing: 0.5px;
+    margin: 0;
+    margin-bottom: 55px;
+}
+
+.store-section i {
+    font-size: 60px;
+}
+
+.icon {
+    background-color: #e3b375;
+    border-radius: 50%;
+    padding: 40px;
+    color: white;
+    display: inline-block;
+}
+
+.vegan-store-wrapper {
+    width: 100%;
+    max-width: 1140px;
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+}
+
+.vegan-store-wrapper h3 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+    font-weight: var(--font-weight-bold);
+}
+
+.vegan-store-wrapper p {
+    font-family: 'Poppins', sans-serif;
+    font-size: var(--font-size-large);
+    letter-spacing: 0.5px;
+    font-weight: 500;
+    color: #8b8b99;
+}
+
+.store-item {
+    width: 25%;
+    text-align: center;
+    padding: 24px;
+}
+
+.shop-section {
+    background-color: white;
+}
