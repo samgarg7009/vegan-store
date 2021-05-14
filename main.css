@@ -422,9 +422,192 @@ nav>img {
     margin: 0;
 }
 
+.video-section>div {
+    width: 100%;
+    max-width: 1140px;
+    margin: 0 auto;
+    text-align: center;
+}
+
 .video-section h3 {
     font-family: 'Poppins', sans-serif;
     color: #8b8b99;
     font-size: 44px;
     font-weight: var(--font-weight-light);
+}
+
+.video-section iframe {
+    width: 100%;
+    height: 425px;
+}
+
+.address-wrapper {
+    width: 100%;
+    max-width: 1140px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 100px 0;
+}
+
+.address-section {
+    font-family: 'Poppins', sans-serif;
+}
+
+.left-section {
+    width: 50%;
+}
+
+.right-section {
+    width: 40%;
+}
+
+.green-heading {
+    color: #91ac41;
+    font-size: 24px;
+    font-family: 'Caveat', cursive;
+    margin: 0;
+    margin-top: 35px;
+}
+
+.section-heading {
+    margin: 0;
+    font-size: 44px;
+    font-weight: 600;
+}
+
+.head-desc {
+    font-size: 16px;
+    font-weight: 400;
+    color: #8b8b99;
+    letter-spacing: 0.5px;
+}
+
+.address {
+    font-size: 24px;
+    font-weight: 600;
+    margin: 0;
+    margin-top: 32px;
+}
+
+.address-line {
+    font-size: 16px;
+    font-weight: 400;
+    color: #8b8b99;
+    letter-spacing: 0.5px;
+    line-height: 2;
+    margin: 0;
+}
+
+form {
+    display: block;
+}
+
+.input-box {
+    width: 100%;
+    padding: 16px;
+    font-size: 16px;
+    color: #8b8b99;
+    border-radius: 6px;
+    border: 1px solid #e5e6ec;
+    margin-bottom: 16px;
+    display: block;
+    box-sizing: border-box;
+}
+
+#btn-submit {
+    font-size: 16px;
+    font-weight: 600;
+    color: white;
+    background-color: rgb(170, 210, 54);
+    padding: 12px 34px;
+    text-transform: uppercase;
+    border: 0;
+    border-radius: 4px;
+    margin-right: 16px;
+    cursor: pointer;
+}
+
+footer {
+    background-color: #232323;
+    color: white;
+    font-size: 14px;
+    letter-spacing: 0.5px;
+    text-align: center;
+    padding: 30px 0px;
+}
+
+@media (max-width: 378px) {
+    .menu-item {
+        display: none;
+    }
+    .Buy-Now-Button {
+        margin-right: 24px;
+    }
+    .main-heading>h1 {
+        font-size: 28px;
+    }
+    .main-heading>p {
+        padding: 16px;
+        box-sizing: border-box;
+    }
+    .steps-section {
+        flex-direction: column;
+    }
+    .steps-box {
+        width: 100%;
+        box-sizing: border-box;
+    }
+    .vegan-head {
+        font-size: 36px;
+    }
+    .store-section {
+        padding: 16px;
+        box-sizing: border-box;
+    }
+    .vegan-store-wrapper {
+        flex-direction: column;
+    }
+    .store-item {
+        width: 100%;
+        box-sizing: border-box;
+    }
+    .shop-section {
+        padding: 16px;
+        box-sizing: border-box;
+    }
+    .test-wrapper {
+        flex-direction: column;
+    }
+    .test-card {
+        width: 100%;
+        box-sizing: border-box;
+    }
+    .subscribe-section {
+        flex-direction: column;
+    }
+    .image {
+        width: 100%;
+    }
+    .follow-us {
+        width: 100%;
+    }
+    .stats-wrapper {
+        flex-direction: column;
+    }
+    .stats-item {
+        width: 100%;
+        padding: 16px;
+    }
+    .address-wrapper {
+        flex-direction: column;
+        padding: 16px;
+        box-sizing: border-box;
+    }
+    .left-section {
+        width: 100%;
+    }
+    .right-section {
+        width: 100%;
+    }
 }
